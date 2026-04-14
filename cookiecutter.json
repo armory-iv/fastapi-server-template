@@ -1,0 +1,10 @@
+{
+  "project_name": "",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
+  "description": "A FastAPI server",
+  "author_name": "Your Name",
+  "author_email": "you@example.com",
+  "github_username": "your-github-username",
+  "python_version": "3.13",
+  "port": "8000"
+}
