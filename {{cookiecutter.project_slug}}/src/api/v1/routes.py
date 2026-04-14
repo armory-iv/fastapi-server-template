@@ -9,7 +9,7 @@ from src.schemas.health import HealthResponse
 router = APIRouter()
 
 
-@router.get("/health", response_model=HealthResponse)
+@router.get("/health", response_model=HealthResponse, tags=["health"])
 def health_check() -> HealthResponse:
     """Return service health and current version."""
     try:
